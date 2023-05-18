@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bai Jamjuree', sans-serif;
+
+  /* border: 2px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  background-image: url('../images/bg-header-desktop.png');
+  background-repeat: repeat-x;
+  background-position: top;
+  padding-top: 14rem;
+  /* padding: 14rem 3rem 0rem 3rem; */
+}
+
+/********** GENERAL **********/
+
+h1,
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+}
+
+main {
+  padding: 0 3rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 3.6rem;
+  margin-bottom: 2.5rem;
+  max-width: 70rem;
+  letter-spacing: -0.05rem;
+}
+
+.section-description {
+  font-size: 1.8rem;
+  margin-bottom: 11rem;
+  max-width: 70rem;
+}
+
+.snippets-feature-title {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.05rem;
+}
+
+/********** BUTTONS **********/
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  border: none;
+
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+
+  width: 23rem;
+  height: 5.5rem;
+  border-radius: 9000px;
+  cursor: pointer;
+}
+
+.button-ios {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: inset 0rem -0.3rem 0rem hsla(171, 100%, 18%, 0.178),
+    0rem 1rem 1rem hsla(171, 100%, 31%, 0.178);
+}
+
+.button-ios:hover {
+  background-color: hsl(171, 66%, 64%);
+  box-shadow: inset 0rem -0.3rem 0rem hsla(171, 100%, 18%, 0.178),
+    0rem 1rem 1rem hsla(171, 100%, 31%, 0.178);
+}
+
+.button-mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: inset 0rem -0.3rem 0rem hsl(233, 95%, 64%);
+}
+
+.button-mac:hover {
+  background-color: hsl(233, 100%, 75%);
+  box-shadow: inset 0rem -0.3rem 0rem hsl(233, 95%, 69%);
+}
+
+/********** HERO SECTION **********/
+
+.hero-section {
+  margin-bottom: 16rem;
+}
+
+.hero-logo {
+  width: 12rem;
+  margin-bottom: 5rem;
+}
+
+.main-title {
+  font-size: 4.8rem;
+  margin-bottom: 3rem;
+  letter-spacing: -0.2rem;
+  max-width: 70rem;
+}
+
+.intro-text {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  max-width: 70rem;
+}
+
+/********** SNIPPETS **********/
+
+.snippets-section {
+  margin-bottom: 16rem;
+}
+
+.snippets-section .content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.computer-image {
+  max-width: 75rem;
+  justify-self: end;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+
+  margin-left: 11rem;
+
+  max-width: 35rem;
+  text-align: left;
+}
+
+.snippet-feature-description {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+/********** WORKFLOW **********/
+
+.workflow-section {
+  margin-bottom: 15rem;
+  max-width: 110rem;
+}
+
+.workflow-section .section-description {
+  margin-bottom: 4rem;
+}
+
+.workflow-section .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3.5rem;
+}
+
+.workflow-feature {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.5fr 1fr;
+  justify-items: center;
+}
+
+.workflow-feature-title {
+  font-size: 2.4rem;
+  letter-spacing: -0.05rem;
+}
+
+.feature-icon {
+  width: 4rem;
+  align-self: center;
+}
+
+.workflow-feature-description {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+/********** PROOF SECTION **********/
+.proof-section {
+  margin-bottom: 17rem;
+  max-width: 111rem;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.proof-logo {
+  width: 16.5rem;
+}
+
+/********** DOWNLOAD SECTION **********/
+
+.download-section {
+  margin-bottom: 15rem;
+}
+
+.download-section .section-description {
+  margin-bottom: 5rem;
+}
+
+/********** FOOTER **********/
+
+.footer {
+  max-width: 100vw;
+  background-color: rgb(245, 246, 248);
+}
+
+.footer .content {
+  max-width: 110rem;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 0.5fr;
+  align-items: center;
+
+  padding: 4.5rem;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  width: 5.5rem;
+  justify-self: start;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+
+  max-height: 8rem;
+  max-width: 80rem;
+
+  font-size: 1.8rem;
+
+  list-style-type: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: hsl(201, 11%, 66%);
+}
+
+.footer-link:hover,
+.footer-link:active {
+  text-decoration: none;
+  color: hsl(201, 11%, 36%);
+}
+
+.social-links {
+  justify-self: end;
+  display: flex;
+  gap: 2.5rem;
+}
+
+/********** ATTRIBUTION **********/
+
+.attribution-container {
+  position: absolute;
+  bottom: 1rem;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

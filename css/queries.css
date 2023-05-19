@@ -89,6 +89,15 @@
 
 /* Responsive below 784px */
 @media (max-width: 49em) {
-  /* .footer .content {
-  } */
+  .footer .content {
+    grid-template-columns: 100%;
+    justify-items: center;
+  }
+}
+
+.footer-logo,
+.footer-links,
+.social-links {
+  justify-self: center;
+  align-self: center;
 }

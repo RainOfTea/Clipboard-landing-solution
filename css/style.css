@@ -296,7 +296,6 @@ main {
 
 .social-links {
   justify-self: end;
-  margin-left: auto;
   display: flex;
   gap: 2.5rem;
 }

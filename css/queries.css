@@ -6,6 +6,20 @@
     margin-bottom: 5rem;
   }
 
+  /********** HERO SECTION **********/
+
+  .hero-section {
+    margin-bottom: 17rem;
+  }
+
+  .main-title {
+    margin-bottom: 2.5rem;
+  }
+
+  .intro-text {
+    margin-bottom: 4rem;
+  }
+
   /********** SNIPPETS **********/
 
   .snippets-section {
@@ -89,15 +103,52 @@
 
 /* Responsive below 784px */
 @media (max-width: 49em) {
+  /********** GENERAL **********/
+
+  .section-description {
+    max-width: 50rem;
+  }
+
+  /********** BUTTONS **********/
+
+  .button {
+    width: 100%;
+  }
+
+  /********** HERO SECTION **********/
+
+  .main-title {
+    font-size: 3.6rem;
+  }
+
+  .intro-text {
+    font-size: 1.6rem;
+    max-width: 50rem;
+  }
+
+  /********** FOOTER **********/
+
   .footer .content {
     grid-template-columns: 100%;
     justify-items: center;
+    align-items: center;
+    row-gap: 5.5rem;
   }
-}
 
-.footer-logo,
-.footer-links,
-.social-links {
-  justify-self: center;
-  align-self: center;
+  .footer-logo,
+  .footer-links,
+  .social-links {
+    justify-self: center;
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  .footer-links {
+    max-height: unset;
+    text-align: center;
+  }
+
+  .social-links {
+    min-width: 15.5rem;
+  }
 }

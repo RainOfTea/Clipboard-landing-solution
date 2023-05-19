@@ -129,6 +129,7 @@ main {
   font-size: 2rem;
   margin-bottom: 3rem;
   max-width: 70rem;
+  line-height: 1.5;
 }
 
 /********** SNIPPETS **********/
@@ -297,12 +298,14 @@ main {
 .social-links {
   justify-self: end;
   display: flex;
-  gap: 2.5rem;
+  justify-content: space-between;
+  min-width: 12rem;
 }
 
 /********** ATTRIBUTION **********/
 
 .attribution-container {
+  min-width: 100%;
   position: absolute;
   bottom: 1rem;
   right: 50%;

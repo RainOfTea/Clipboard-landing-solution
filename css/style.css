@@ -17,7 +17,6 @@ body {
   background-repeat: repeat-x;
   background-position: top;
   padding-top: 14rem;
-  /* padding: 14rem 3rem 0rem 3rem; */
 }
 
 /********** GENERAL **********/
@@ -46,19 +45,19 @@ main {
 
   text-align: center;
 
-  margin: 0 auto;
+  margin: 0 auto 16rem auto;
 }
 
 .section-title {
   font-size: 3.6rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
   max-width: 70rem;
   letter-spacing: -0.05rem;
 }
 
 .section-description {
   font-size: 1.8rem;
-  margin-bottom: 11rem;
+  margin-bottom: 8.5rem;
   max-width: 70rem;
   line-height: 1.8;
 }
@@ -116,7 +115,7 @@ main {
 
 .hero-logo {
   width: 12rem;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 
 .main-title {
@@ -128,7 +127,7 @@ main {
 
 .intro-text {
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   max-width: 70rem;
   line-height: 1.5;
 }
@@ -153,7 +152,7 @@ main {
 .snippets-features {
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 7rem;
 
   margin-left: 11rem;
 
@@ -178,6 +177,14 @@ main {
 
 /********** CLIPBOARD **********/
 
+.clipboard-section {
+  margin-bottom: 8rem;
+}
+
+.clipboard-section .section-description {
+  margin-bottom: 10rem;
+}
+
 .devices-image {
   max-width: 100%;
 }
@@ -185,7 +192,7 @@ main {
 /********** WORKFLOW **********/
 
 .workflow-section {
-  margin-bottom: 15rem;
+  margin-bottom: 17rem;
   max-width: 110rem;
 }
 
@@ -213,7 +220,7 @@ main {
 .workflow-feature-title {
   font-size: 2.4rem;
   letter-spacing: -0.05rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .workflow-feature-description {

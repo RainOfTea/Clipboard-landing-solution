@@ -1,3 +1,94 @@
 /* Responsive below 1104px */
 @media (max-width: 69em) {
+  /********** GENERAL **********/
+
+  .section-description {
+    margin-bottom: 5rem;
+  }
+
+  /********** SNIPPETS **********/
+
+  .snippets-section {
+    margin-bottom: 10rem;
+    max-width: 100%;
+  }
+
+  .snippets-section .content {
+    grid-template-columns: 100%;
+    row-gap: 4rem;
+    justify-items: center;
+  }
+
+  .computer-image {
+    max-width: 80%;
+    justify-self: center;
+  }
+
+  .snippets-features {
+    flex-direction: row;
+    margin-left: 0;
+
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /********** CLIPBOARD **********/
+
+  .clipboard-section {
+    margin-bottom: 5rem;
+  }
+
+  .devices-image {
+    max-width: 80%;
+  }
+
+  /********** WORKFLOW **********/
+  .workflow-section {
+    margin-bottom: 10rem;
+  }
+
+  /********** PROOF **********/
+  .proof-section {
+    max-width: 80%;
+    margin-bottom: 10rem;
+  }
+}
+
+/* Responsive below 912px */
+@media (max-width: 57em) {
+  /********** SNIPPETS **********/
+
+  .snippets-features {
+    flex-direction: column;
+    max-width: 50%;
+  }
+
+  /********** WORKFLOW **********/
+
+  .workflow-section .content {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    max-width: 35rem;
+  }
+
+  .workflow-feature {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0rem;
+  }
+
+  .workflow-feature-icon {
+    margin-bottom: 3rem;
+  }
+
+  .workflow-feature-title {
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* Responsive below 784px */
+@media (max-width: 49em) {
+  /* .footer .content {
+  } */
 }

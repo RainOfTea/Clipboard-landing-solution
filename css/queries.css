@@ -60,17 +60,6 @@
     max-width: 80%;
   }
 
-  /********** WORKFLOW **********/
-  .workflow-section {
-    margin-bottom: 10rem;
-  }
-
-  /********** PROOF **********/
-  .proof-section {
-    max-width: 80%;
-    margin-bottom: 18rem;
-  }
-
   /********** DOWNLOAD SECTION **********/
   .download-section {
     margin-bottom: 17rem;
@@ -78,14 +67,7 @@
 }
 
 /* Responsive below 912px */
-@media (max-width: 57em) {
-  /********** SNIPPETS **********/
-
-  .snippets-features {
-    flex-direction: column;
-    max-width: 35rem;
-  }
-
+@media (max-width: 58em) {
   /********** WORKFLOW **********/
 
   .workflow-section {
@@ -98,9 +80,7 @@
 
   .workflow-section .content {
     display: flex;
-    flex-direction: column;
     gap: 6.5rem;
-    max-width: 35rem;
   }
 
   .workflow-feature {
@@ -122,6 +102,10 @@
 @media (max-width: 49em) {
   /********** GENERAL **********/
 
+  .section-title {
+    font-size: 3rem;
+  }
+
   .section-description {
     max-width: 50rem;
   }
@@ -141,6 +125,29 @@
   .intro-text {
     font-size: 1.6rem;
     max-width: 50rem;
+  }
+
+  /********** SNIPPETS **********/
+
+  .snippets-features {
+    flex-direction: column;
+    max-width: 35rem;
+  }
+
+  /********** WORKFLOW **********/
+
+  .workflow-section .content {
+    flex-direction: column;
+    max-width: 35rem;
+  }
+
+  /********** PROOF **********/
+  .proof-section {
+    margin-bottom: 18rem;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0;
+    height: 44rem;
   }
 
   /********** FOOTER **********/

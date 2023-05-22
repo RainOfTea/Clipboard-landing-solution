@@ -147,6 +147,7 @@ main {
 .computer-image {
   max-width: 75rem;
   justify-self: end;
+  transition: all 300ms;
 }
 
 .snippets-features {
@@ -186,7 +187,8 @@ main {
 }
 
 .devices-image {
-  max-width: 100%;
+  max-width: 90rem;
+  transition: all 300ms;
 }
 
 /********** WORKFLOW **********/
@@ -234,12 +236,13 @@ main {
   max-width: 111rem;
   flex-direction: row;
   justify-content: center;
-  gap: 4rem;
+  column-gap: 8rem;
+  row-gap: 4rem;
   flex-wrap: wrap;
 }
 
 .proof-logo {
-  width: 16.5rem;
+  width: auto;
 }
 
 /********** DOWNLOAD SECTION **********/

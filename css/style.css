@@ -297,13 +297,13 @@ main {
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
-  color: hsl(201, 11%, 66%);
+  color: hsl(210, 10%, 33%);
 }
 
 .footer-link:hover,
 .footer-link:active {
   text-decoration: none;
-  color: hsl(201, 11%, 36%);
+  color: hsl(171, 66%, 44%);
 }
 
 .social-links {
@@ -311,6 +311,15 @@ main {
   display: flex;
   justify-content: space-between;
   min-width: 12rem;
+  cursor: pointer;
+}
+
+.social-link {
+  fill: #4c545c;
+}
+
+.social-link:hover {
+  fill: hsl(171, 66%, 44%);
 }
 
 /********** ATTRIBUTION **********/
